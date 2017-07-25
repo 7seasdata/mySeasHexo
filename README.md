@@ -1,2 +1,2 @@
-# mySeasHexo
-mySeasHexo
+# myHexo
+我的博客
