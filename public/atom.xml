@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>7seas data</title>
+  <subtitle>data for test</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://7seasdata.github.io/"/>
+  <updated>2017-07-25T07:43:12.000Z</updated>
+  <id>http://7seasdata.github.io/</id>
+  
+  <author>
+    <name>7seas Team</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://7seasdata.github.io/2017/03/01/hello_world/"/>
+    <id>http://7seasdata.github.io/2017/03/01/hello_world/</id>
+    <published>2017-02-28T16:00:00.000Z</published>
+    <updated>2017-07-25T07:43:12.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;http://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;http://hexo.io
+    
+    </summary>
+    
+      <category term="经验总结" scheme="http://7seasdata.github.io/categories/%E7%BB%8F%E9%AA%8C%E6%80%BB%E7%BB%93/"/>
+    
+    
+      <category term="tools" scheme="http://7seasdata.github.io/tags/tools/"/>
+    
+  </entry>
+  
+</feed>
