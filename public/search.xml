@@ -7,6 +7,7 @@
       <title><![CDATA[GTM系列教程之 GTM部署以及GA结合埋码]]></title>
       <url>http://7seasdata.github.io/2017/07/26/gtm_lession1/</url>
       <content type="html"><![CDATA[<h1 id="GTM系列教程之-GTM部署和GA埋码"><a href="#GTM系列教程之-GTM部署和GA埋码" class="headerlink" title="GTM系列教程之 GTM部署和GA埋码"></a>GTM系列教程之 GTM部署和GA埋码</h1><h3 id="背景："><a href="#背景：" class="headerlink" title="背景："></a>背景：</h3><p>随着现在很多业务的国际化，相信大家都会需要一个统计平台来对自己的业务进行数据的监控以及分析，在国际业务中，Google Analytics (GA) 基本是大家的主要选择，那么今天我们就一起来学习GTM的基础部署 以及 结合GA进行埋码吧</p>
+<a id="more"></a>
 <h3 id="GTM认识与部署"><a href="#GTM认识与部署" class="headerlink" title="GTM认识与部署"></a>GTM认识与部署</h3><p>GTM 全称是 Google Tag Manager， 它是Google 在2012年发布的一个重要产品； GTM 主要是一个管理工具，能进行代码，标签，js脚本的管理，因此我们可以通过GTM 进行站点的跟踪的代码部署，APP跟踪的代码部署，以及再营销代码，和DCM代码等等</p>
 <p>GTM的特性可以理解为一下节点：</p>
 <ul>

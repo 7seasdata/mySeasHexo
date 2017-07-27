@@ -27,13 +27,13 @@ links:
 
 # navigation menu
 menu:
-  - name: Home
+  - name: 主页
     slug: home
     url: /
-  - name: Archives
+  - name: 归档
     slug: archives
     url: /archives
-  - name: About
+  - name: 关于我们
     slug: about
     url: /about
 
