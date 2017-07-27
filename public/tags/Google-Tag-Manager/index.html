@@ -3,13 +3,13 @@
 <head>
     <meta charset="utf-8">
     
-    <title>7seas data</title>
+    <title>标签: Google Tag Manager | 7seas data</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <meta name="description" content="A blog of 7seas data test">
 <meta name="keywords" content="blog,GA,Node.js,Web Front End,Testing,Big Data">
 <meta property="og:type" content="website">
 <meta property="og:title" content="7seas data">
-<meta property="og:url" content="http://7seasdata.github.io/index.html">
+<meta property="og:url" content="http://7seasdata.github.io/tags/Google-Tag-Manager/index.html">
 <meta property="og:site_name" content="7seas data">
 <meta property="og:description" content="A blog of 7seas data test">
 <meta property="og:locale" content="zh-CN">
@@ -211,21 +211,24 @@
 
             
             <section id="main">
-    <article id="post-gtm_lession1" class="article article-type-post" itemscope itemprop="blogPost">
-    <div class="article-inner">
-        
-        
-            <header class="article-header">
+<div class="timeline timeline-wrap">
+    <div class="timeline-row timeline-row-major">
+        <span class="node"><i class="fa fa-tag"></i></span>
+        <h1 class="title">#Google Tag Manager</h1>
+    </div>
+    
+        <div class="timeline-row">
+            <span class="node"></span>
+            <div class="content">
                 
     
         <h1 itemprop="name">
-            <a class="article-title" href="/2017/07/26/gtm_lession1/">GTM系列教程之 GTM部署以及GA结合埋码</a>
+            <a class="timeline-article-title" href="/2017/07/26/gtm_lession1/">GTM系列教程之 GTM部署以及GA结合埋码</a>
         </h1>
     
 
-                
-                    <div class="article-meta">
-                        
+                <div class="article-meta">
+                    
     <div class="article-date">
         <i class="fa fa-calendar"></i>
         <a href="/2017/07/26/gtm_lession1/">
@@ -234,141 +237,23 @@
     </div>
 
 
-                        
+                    
     <div class="article-category">
     	<i class="fa fa-folder"></i>
         <a class="article-category-link" href="/categories/GTM系列/">GTM系列</a>
     </div>
 
-                        
+                    
     <div class="article-tag">
         <i class="fa fa-tag"></i>
         <a class="tag-link" href="/tags/Google-Tag-Manager/">Google Tag Manager</a>
     </div>
 
-                    </div>
-                
-            </header>
-        
-        
-        <div class="article-entry" itemprop="articleBody">
-        
-            
-            <h1 id="GTM系列教程之-GTM部署和GA埋码"><a href="#GTM系列教程之-GTM部署和GA埋码" class="headerlink" title="GTM系列教程之 GTM部署和GA埋码"></a>GTM系列教程之 GTM部署和GA埋码</h1><h3 id="背景："><a href="#背景：" class="headerlink" title="背景："></a>背景：</h3><p>随着现在很多业务的国际化，相信大家都会需要一个统计平台来对自己的业务进行数据的监控以及分析，在国际业务中，Google Analytics (GA) 基本是大家的主要选择，那么今天我们就一起来学习GTM的基础部署 以及 结合GA进行埋码吧</p>
-<h3 id="GTM认识与部署"><a href="#GTM认识与部署" class="headerlink" title="GTM认识与部署"></a>GTM认识与部署</h3><p>GTM 全称是 Google Tag Manager， 它是Google 在2012年发布的一个重要产品； GTM 主要是一个管理工具，能进行代码，标签，js脚本的管理，因此我们可以通过GTM 进行站点的跟踪的代码部署，APP跟踪的代码部署，以及再营销代码，和DCM代码等等</p>
-<p>GTM的特性可以理解为一下节点：</p>
-<ul>
-<li>免费的</li>
-<li>可以直接使用</li>
-<li>忘记限制</li>
-<li>无缝与GA结合</li>
-<li>跟踪方便</li>
-<li>安全的</li>
-<li>可以进行debug调试</li>
-</ul>
-<h3 id="开始部署GTM"><a href="#开始部署GTM" class="headerlink" title="开始部署GTM"></a>开始部署GTM</h3><p> 1.创建GTM账号，可以是公司名字，站点名字等，<br> <img src="http://otoxrqu0z.bkt.clouddn.com/site/img/gtm-bushu-st1.png" alt="alt text" title="创建账号"></p>
-<p> 2.点击继续，进行设置容器<br>  <img src="http://otoxrqu0z.bkt.clouddn.com/site/img/gtm-bushu-st2.png" alt="alt text" title="设置容器"></p>
-<p>3.同意条款协议<br>  <img src="http://otoxrqu0z.bkt.clouddn.com/site/img/gtm-bushu-st3.png" alt="alt text" title="同意条款协议"></p>
-<p>4.产出部署代码<br>  <img src="http://otoxrqu0z.bkt.clouddn.com/site/img/gtm-bushu-st4.png" alt="alt text" title="同意条款协议"></p>
-<p>5.然后把需要部署跟踪的代码部署到页面对应位置上，检查网站是否正常加载到gtm.js 文件<br>  <img src="http://otoxrqu0z.bkt.clouddn.com/site/img/step5.png" alt="alt text" title="检查gtm.js"></p>
-<h3 id="创建GA埋码"><a href="#创建GA埋码" class="headerlink" title="创建GA埋码"></a>创建GA埋码</h3><p>1.创建GA账号<br> <img src="http://otoxrqu0z.bkt.clouddn.com/site/img/ga-step1.png" alt="alt text" title="创建账号"></p>
-<p>2.填写网站基本信息<br><img src="http://otoxrqu0z.bkt.clouddn.com/site/img/ga-step2.png" alt="alt text" title="填写网站基本信息"></p>
-<p>3.获取网站埋码<br><img src="http://otoxrqu0z.bkt.clouddn.com/site/img/ga-step3.png" alt="alt text" title="获取网站埋码"></p>
-<h3 id="通过GTM进行GA埋码关联注入"><a href="#通过GTM进行GA埋码关联注入" class="headerlink" title="通过GTM进行GA埋码关联注入"></a>通过GTM进行GA埋码关联注入</h3><p>1.创建代码模块<br><img src="http://otoxrqu0z.bkt.clouddn.com/site/img/ga-relate-step1.png" alt="alt text" title="创建代码"></p>
-<p>2.选择自定义HTML，填写GA埋码脚本<br><img src="http://otoxrqu0z.bkt.clouddn.com/site/img/ga-relate-step2.png" alt="alt text" title="填写埋码脚本"></p>
-<p>3.选择触发条件为All page<br><img src="http://otoxrqu0z.bkt.clouddn.com/site/img/ga-relate-step3.png" alt="alt text" title="选择触发条件"></p>
-<p>4.提交改动信息，并且点击发布<br><img src="http://otoxrqu0z.bkt.clouddn.com/site/img/ga-relate-step4.png" alt="alt text" title="提交更改"></p>
-<p><img src="http://otoxrqu0z.bkt.clouddn.com/site/img/ga-relate-step5.png" alt="alt text" title="提交更改"></p>
-<p>5.发布成功后查看网站请求  是否已经存在collect 请求<br><img src="http://otoxrqu0z.bkt.clouddn.com/site/img/ga-relate-step6.png" alt="alt text" title="检查请求"></p>
-<p>6.访问GA便可看到数据已经在统计<br><img src="http://otoxrqu0z.bkt.clouddn.com/site/img/ga-relate-step7.png" alt="alt text" title="访问GA"></p>
-<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>通过以上的操作示例，我们完成了通过GTM 部署 GA代码的步骤， 通过GTM 我们可以在不用重新发布代码的状态下进行代码的部署与发布，大大地提高了效率</p>
-
-        
+                </div>
+            </div>
         </div>
-        <footer class="article-footer">
-            <div class="share-container">
-
-
-
+    
 </div>
-
-    <a data-url="http://7seasdata.github.io/2017/07/26/gtm_lession1/" data-id="cj5mez8mo0000n7c9zuju4985" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
-<script>
-    (function ($) {
-        // Prevent duplicate binding
-        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
-            __SHARE_BUTTON_BINDED__ = true;
-        } else {
-            return;
-        }
-        $('body').on('click', function() {
-            $('.article-share-box.on').removeClass('on');
-        }).on('click', '.article-share-link', function(e) {
-            e.stopPropagation();
-
-            var $this = $(this),
-                url = $this.attr('data-url'),
-                encodedUrl = encodeURIComponent(url),
-                id = 'article-share-box-' + $this.attr('data-id'),
-                offset = $this.offset(),
-                box;
-
-            if ($('#' + id).length) {
-                box = $('#' + id);
-
-                if (box.hasClass('on')){
-                    box.removeClass('on');
-                    return;
-                }
-            } else {
-                var html = [
-                    '<div id="' + id + '" class="article-share-box">',
-                        '<input class="article-share-input" value="' + url + '">',
-                        '<div class="article-share-links">',
-                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
-                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
-                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
-                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
-                        '</div>',
-                    '</div>'
-                ].join('');
-
-              box = $(html);
-
-              $('body').append(box);
-            }
-
-            $('.article-share-box.on').hide();
-
-            box.css({
-                top: offset.top + 25,
-                left: offset.left
-            }).addClass('on');
-
-        }).on('click', '.article-share-box', function (e) {
-            e.stopPropagation();
-        }).on('click', '.article-share-box-input', function () {
-            $(this).select();
-        }).on('click', '.article-share-box-link', function (e) {
-            e.preventDefault();
-            e.stopPropagation();
-
-            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
-        });
-    })(jQuery);
-</script>
-
-            
-    
-        <a href="http://7seasdata.github.io/2017/07/26/gtm_lession1/#comments" class="article-comment-link disqus-comment-count" data-disqus-url="http://7seasdata.github.io/2017/07/26/gtm_lession1/">评论</a>
-    
-
-        </footer>
-    </div>
-    
-</article>
-
-
 </section>
             
                 
